@@ -18,6 +18,14 @@ const navigation = () => {
       path: '/'
     },
     {
+      title: 'Polygon',
+      icon: CubeOutline,
+      path: '/polygon'
+    },
+    {
+      sectionTitle: 'Accounts'
+    },
+    {
       title: 'Account Settings',
       icon: AccountCogOutline,
       path: '/account-settings'
