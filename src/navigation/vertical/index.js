@@ -18,6 +18,11 @@ const navigation = () => {
       title: 'Optimism',
       icon: CubeOutline,
       path: '/optimism'
+    },
+    {
+      title: 'Arbitrum',
+      icon: CubeOutline,
+      path: '/arbitrum'
     }
   ]
 }
