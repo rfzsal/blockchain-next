@@ -23,6 +23,11 @@ const navigation = () => {
       path: '/polygon'
     },
     {
+      title: 'Optimism',
+      icon: CubeOutline,
+      path: '/optimism'
+    },
+    {
       sectionTitle: 'Accounts'
     },
     {
