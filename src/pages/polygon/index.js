@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import Stack from '@mui/material/Stack'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
+import CircularProgress from '@mui/material/CircularProgress'
 
 // ** Lib Imports
 import PolygonContract from 'lib/PolygonContract'
@@ -82,6 +83,14 @@ const Polygon = () => {
             </Grid>
           )
         })}
+
+      {data.length === 0 && (
+        <Grid item xs={12} sx={{ marginTop: 8 }}>
+          <Stack direction='row' justifyContent='center' alignItems='center'>
+            <CircularProgress />
+          </Stack>
+        </Grid>
+      )}
     </Grid>
   )
 }
