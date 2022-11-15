@@ -28,6 +28,11 @@ const navigation = () => {
       title: 'Avalanche',
       icon: CubeOutline,
       path: '/avalanche'
+    },
+    {
+      title: 'Astar',
+      icon: CubeOutline,
+      path: '/astar'
     }
   ]
 }
