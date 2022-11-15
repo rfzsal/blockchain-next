@@ -40,7 +40,7 @@ const UserDropdown = () => {
   const router = useRouter()
 
   const handleDropdownOpen = event => {
-    setAnchorEl(event.currentTarget)
+    // setAnchorEl(event.currentTarget)
   }
 
   const handleDropdownClose = url => {
